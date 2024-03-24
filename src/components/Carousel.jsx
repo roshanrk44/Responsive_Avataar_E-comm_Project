@@ -38,17 +38,7 @@ setright(data.length-1);
 else
 setright(right-1);
   }
-//   useEffect(()=>{
-//     const timer=setInterval(nextSlide,2000);
-//     return ()=>{
-// clearInterval(timer);
-//     };
-//   },[]);
-  // const time=setInterval(
-  //   nextSlide
-  // ,2000
-  // )
-  // clearInterval(time);
+    setInterval(()=>{nextSlide()},2000);
 function set(num)
 {
 setslide(num);
@@ -78,7 +68,9 @@ else{
   setprev(num-1);
   setleft(num-2);
 }
+
 }
+
   return (
   <>
   <div className='heading'>Featured Products</div>
@@ -87,11 +79,11 @@ else{
       {data.map((item,idx) =>{
         return (
           <>
-        <img src={item.src} alt={item.alt} key={idx} className={left===idx ? "slide3": "slide3 slide-hidden"} />
-        <img src={item.src} alt={item.alt} key={idx} className={prev===idx ? "slide1": "slide1 slide-hidden"} />
-        <img src={item.src} alt={item.alt} key={idx} className={slide===idx ? "slide": "slide slide-hidden"}/>
-        <img src={item.src} alt={item.alt} key={idx} className={next===idx ? "slide2": "slide2 slide-hidden"} />
-        <img src={item.src} alt={item.alt} key={idx} className={right===idx ? "slide4": "slide4 slide-hidden"} />
+        <div className={left===idx ? "slide3": "slide3 slide-hidden"} onClick={()=>{set(left)}}><img src={item.src} alt={item.alt} key={idx} className='left'/></div>
+        <div className={prev===idx ? "slide1": "slide1 slide-hidden"} onClick={()=>{set(prev)}}><img src={item.src} alt={item.alt} key={idx}  className='prev'/></div>
+        <div className={slide===idx ? "slide": "slide slide-hidden"}><img src={item.src} alt={item.alt} key={idx} className='mainslide' /><div className='op'>{item.title}</div></div>
+        <div className={next===idx ? "slide2": "slide2 slide-hidden"} onClick={()=>{set(next)}}><img src={item.src} alt={item.alt} key={idx}  className='next'/></div>
+        <div className={right===idx ? "slide4": "slide4 slide-hidden"} onClick={()=>{set(right)}}>  <img src={item.src} alt={item.alt} key={idx}  className='right'/></div>
 
         </>
         );

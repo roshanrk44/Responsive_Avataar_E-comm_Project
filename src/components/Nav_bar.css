@@ -6,15 +6,6 @@
     width: 100%;
     background-color: #2F302C;
     padding: 24px, 64px, 24px, 64px;
-    /* z-index: 20px; */
-  }
-  .button{
-    background-color: transparent;
-    color: white;
-    font-family: 'lato';
-    font-weight: 700;
-    font-size: 16px;
-    border-style: none;
   }
   .list li{
     font-size: 16px;
@@ -31,39 +22,47 @@
  
   .list{
     display: block;
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
-    
+  }
+  .chevron{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .chevp{
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
   }
   .input
   {
     
-    width: 100px;
-    height: 20px;
+    width: 180px;
+    height: 30px;
     border: 0 0 1 0;
   color: rgba(212, 212, 212, 1);
   background-color: transparent;
   border-style: hidden;
-    
+    margin-right: 0px;
   }
   ::placeholder
   {
-    padding-left: 20px;
+    padding-left: 10px;
     color: white;
   font-family: Lato;
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   text-align: left;
   
   }
   .logo{
     width: 23px;
   height: 22.94px;
-  padding-left: 6%;
+  padding-left: 3%;
   }
   .ecom{
     display: inline-block;
@@ -74,24 +73,17 @@
     font-size: 32px;
     margin-left: 0px;
     margin-right: 0px;
-  width: 250px;
+  width: 160px;
   height: 40px;
   cursor: pointer;
-  padding-left: 1%;
+  padding-left: 0.5%;
   text-decoration: none;
- 
-  
   }
   .dropdown{
     height: 35px;
     background-color: #2F302C;
     color: white;
     border-color: #2F302C;
-  }
-  #opt{
-    background-color: #2F302C;
-    font-family: 'lato';
-    font-size: 100px;
   }
   .list li:hover{
     color: rgba(131, 206, 249, 1);
@@ -181,14 +173,11 @@
   .option li a{
     justify-content: center;
     width: 180px;
-    /* height: 100px; */
     background-color: #2F302C; 
   }
   .option li a:hover{
     background-color: rgba(238, 238, 238, 1);
     color: #2F302C;
-
-    
   }
   .option li a{
     font-size: 16px;
@@ -201,9 +190,6 @@
     text-decoration: none;
     
   }
-  /* .list{
-    display: none;
-  } */
   .list1 li {
     font-size: 16px;
     position: relative;
@@ -297,56 +283,42 @@
   }
   .list1 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list2 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list3 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list4 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list5 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list6 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
   }
   .list7 {
     display: none;
-    /* display: block; */
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     width: 80%;
@@ -454,7 +426,13 @@
        display: none;
       }
    }
-   @media(max-width: 500px ){
+   @media(max-width: 715px ){
+    .ecom{
+      display: none;
+    }
+   }
+   @media(max-width: 510px ){
+   
     .list7{
       display: block;
     }
@@ -480,7 +458,5 @@
       .list{
        display: none;
       }
-      .ecom{
-        display: none;
-      }
+      
    }

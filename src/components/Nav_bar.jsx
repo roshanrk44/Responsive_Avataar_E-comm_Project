@@ -5,7 +5,6 @@ const Nav_bar = () => {
     <div>
         <nav className='nav_bar'> 
         <img src="images/Intersect.png" className='logo'/><div className='ecom'>E-COMM</div>
-      {/* <div className='list' > */}
         <ul className='list'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
@@ -20,15 +19,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-         {/* <div className='list' > */}
          <ul className='list1'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
@@ -36,7 +32,6 @@ const Nav_bar = () => {
         <li><a>MUSIC</a></li>
         <li><a>MOVIES</a></li>
         <li><a>CLOTHING</a></li>
-        
         <li><a>MORE</a>
         <ul className='option option1'>
             <li><a>GAMES</a></li>
@@ -44,15 +39,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-         {/* <div className='list' > */}
          <ul className='list2'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
@@ -67,15 +59,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-         {/* <div className='list' > */}
          <ul className='list3'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
@@ -90,15 +79,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-        {/* <div className='list' > */}
         <ul className='list4'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
@@ -113,19 +99,15 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-        {/* <div className='list' > */}
         <ul className='list5'>
         <li><a>HOME</a></li>
         <li><a>ELECTRONICS</a></li>
-        
         <li><a>MORE</a>
         <ul className='option option5'>
         <li><a>BOOKS</a></li>
@@ -137,15 +119,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-        {/* <div className='list' > */}
         <ul className='list6'>
         <li><a>HOME</a></li>
         <li><a>MORE</a>
@@ -160,15 +139,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
-        {/* <div className='list' > */}
         <ul className='list7'>
         <li><a>MORE</a>
         <ul className='option option7'>
@@ -183,14 +159,12 @@ const Nav_bar = () => {
           <li><a href="#">ACSSEROIES</a></li>
           <li><a href="#">UTENSILS</a></li>
           <li><a href="#">HOUSEHOLD</a></li>
-
         </ul>
         </li>
         <li><div className='search'><img src="images/search.png" width="20px" height="20px"/>
           <input className='input' placeholder= 'Search Something' name='search'></input></div>
           </li>
         </ul>
-        {/* </div> */}
       </nav>
     </div>
   )
