@@ -38,7 +38,6 @@ setright(data.length-1);
 else
 setright(right-1);
   }
-    setInterval(()=>{nextSlide()},4000);
 function set(num)
 {
 setslide(num);
