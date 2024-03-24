@@ -1,0 +1,486 @@
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 118px;
+    width: 100%;
+    background-color: #2F302C;
+    padding: 24px, 64px, 24px, 64px;
+    /* z-index: 20px; */
+  }
+  .button{
+    background-color: transparent;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    font-size: 16px;
+    border-style: none;
+  }
+  .list li{
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+  }
+ 
+  .list{
+    display: block;
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+  }
+  .input
+  {
+    
+    width: 100px;
+    height: 20px;
+    border: 0 0 1 0;
+  color: rgba(212, 212, 212, 1);
+  background-color: transparent;
+  border-style: hidden;
+    
+  }
+  ::placeholder
+  {
+    padding-left: 20px;
+    color: white;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+  .logo{
+    width: 23px;
+  height: 22.94px;
+  padding-left: 6%;
+  }
+  .ecom{
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 800;
+    line-height: 20 px;
+    font-size: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  padding-left: 1%;
+  text-decoration: none;
+ 
+  
+  }
+  .dropdown{
+    height: 35px;
+    background-color: #2F302C;
+    color: white;
+    border-color: #2F302C;
+  }
+  #opt{
+    background-color: #2F302C;
+    font-family: 'lato';
+    font-size: 100px;
+  }
+  .list li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list1 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list2 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list3 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list4 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list5 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .list6 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }  
+  .list7 li:hover{
+    color: rgba(131, 206, 249, 1);
+  }
+  .option{
+    position: absolute;
+    padding: 0px;
+    left: -70px;   
+  }
+  .option li{
+    display: none;
+  }
+  .option1 {
+    display: none;
+  }
+  .option2 {
+    display: none;
+  }
+  .option3 {
+    display: none;
+  }
+  .option4 {
+    display: none;
+  }
+  .option5 {
+    display: none;
+  }
+  .option6 {
+    display: none;
+  }
+  .option7 {
+    display: none;
+  }
+  .list li:hover .option li{
+    display: block;
+    
+  }
+  .list1 li:hover .option1 {
+    display: block;
+    
+  }
+  .list2 li:hover .option2 {
+    display: block;
+    
+  }
+  .list3 li:hover .option3 {
+    display: block;
+    
+  }
+  .list4 li:hover .option4 {
+    display: block;
+    
+  }
+  .list5 li:hover .option5 {
+    display: block;
+    
+  }
+  .list6 li:hover .option6 {
+    display: block;
+    
+  }
+  .list7 li:hover .option7 {
+    display: block;
+    
+  }
+  .option li a{
+    justify-content: center;
+    width: 180px;
+    /* height: 100px; */
+    background-color: #2F302C; 
+  }
+  .option li a:hover{
+    background-color: rgba(238, 238, 238, 1);
+    color: #2F302C;
+
+    
+  }
+  .option li a{
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  /* .list{
+    display: none;
+  } */
+  .list1 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list2 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list3 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list4 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list5 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list6 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list7 li {
+    font-size: 16px;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 50px;
+    margin-right: 4%;
+    z-index: 20;
+  }
+  .list1 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list2 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list3 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list4 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list5 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list6 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .list7 {
+    display: none;
+    /* display: block; */
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    float: right;
+  }
+  @media(max-width: 1399px)
+  {
+   .list1{
+    display: block;
+   }
+   .list{
+    display: none;
+   }
+   
+  }
+  @media(max-width: 1300px ){
+    .list2{
+      display: block;
+    }
+    .list1{
+      display: none;
+     }
+     .list{
+      display: none;
+     }
+  }
+  @media(max-width: 1100px ){
+    
+    .list3{
+      display: block;
+    }
+    .list2{
+      display: none;
+    }
+    .list1{
+      display: none;
+     }
+     .list{
+      display: none;
+     }
+  }
+
+  @media(max-width: 1000px ){
+    
+    .list4
+    {
+      display: block;
+    }
+    .list3{
+      display: none;
+    }
+    .list2{
+      display: none;
+    }
+    .list1{
+      display: none;
+     }
+     .list{
+      display: none;
+     }
+  }
+  @media(max-width: 850px ){
+    
+   .list5{
+    display: block;
+   }
+    .list4
+    {
+      display: none;
+    }
+    .list3{
+      display: none;
+    }
+    .list2{
+      display: none;
+    }
+    .list1{
+      display: none;
+     }
+     .list{
+      display: none;
+     }
+  }
+  @media(max-width: 750px ){
+    .list6{
+      display: block;
+    }
+    .list5{
+     display: none;
+    }
+     .list4
+     {
+       display: none;
+     }
+     .list3{
+       display: none;
+     }
+     .list2{
+       display: none;
+     }
+     .list1{
+       display: none;
+      }
+      .list{
+       display: none;
+      }
+   }
+   @media(max-width: 500px ){
+    .list7{
+      display: block;
+    }
+    .list6{
+      display: none;
+    }
+    .list5{
+     display: none;
+    }
+     .list4
+     {
+       display: none;
+     }
+     .list3{
+       display: none;
+     }
+     .list2{
+       display: none;
+     }
+     .list1{
+       display: none;
+      }
+      .list{
+       display: none;
+      }
+      .ecom{
+        display: none;
+      }
+   }

@@ -1,0 +1,138 @@
+.carousel{
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+/* width: 789;
+height: 520; */
+/* display: none; */
+}
+.heading{
+    font-size: 320%;
+    font-family: 'lato';
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+
+.des{
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.leftarrow{
+    margin-right: 4px;
+    cursor: pointer;
+}
+.rightarrow{
+    margin-left:4px;
+    cursor: pointer;
+}
+/* .heading{
+    
+    
+} */
+.slide{
+    position: relative;
+    border-radius: 25.26px;
+    box-shadow: 0px 0px 7px black;
+    height: 25%;
+    width: 37.75%;
+    z-index: 15;
+}
+.slide1{
+    position: absolute;
+    /* z-index: 90; */
+    border-radius: 25.26px;
+    box-shadow: 0px 0px 7px black;
+    height: 65%;
+    width: 30%;
+    top: 17%;
+    right: 15%;
+    z-index: 11;
+}
+.slide2{
+    position: absolute;
+    /* z-index: 9; */
+    border-radius: 25.26px;
+    box-shadow: 0px 0px 7px black;
+    height: 65%;
+    width: 30%;
+    top: 17%;
+    left: 15%;
+    z-index: 11;
+}
+.slide3{
+    position: absolute;
+    /* z-index: 9; */
+    border-radius: 25.26px;
+    box-shadow: 0px 0px 7px black;
+    height:45%;
+    width: 18%;
+    top: 26.5%;
+    left: 78%;
+   
+}
+.slide4{
+    position: absolute;
+    /* z-index: 9; */
+    border-radius: 25.26px;
+    box-shadow: 0px 0px 7px black;
+    height: 45%;
+    width: 18%;
+    top: 26.5%;
+    right: 78%;
+}
+.indicators{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    /* position: absolute; */
+    bottom: 1rem;
+
+}
+.slide-hidden{
+    display: none;
+}
+.indicator{
+    margin: 5px;
+    background-color: rgba(96, 188, 234, 1);
+
+    /* border-style: ; */
+    /* height: 0.5rem; */
+    /* width: 0.1rem; */
+    /* width: 10px; */
+    /* height: 15px; */
+    height: 10px;
+    width: 25px;
+    border: none;
+    outline: none;
+    border-radius: 24%;
+    cursor: pointer;
+}
+.indicator-inactive{
+background-color: rgba(211, 210, 210, 1);
+height: 12px;
+width: 12px;
+border-radius: 50%;
+}
+/* .main{
+    position: relative;
+} */
+/* .prev{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.next{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+} */
